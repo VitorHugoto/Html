@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex HTML 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p><a href="    index.html" rel=""><small>Voltar para a página anterior</small></a></p>
+    <h1><b>Trabalhando com listas</b></h1>
+    <h2><ins>Lista ordenada</ins> </h2>
+    <p>Usasse a tag <b>&lt;ol&gt; </b>que pode ter o parametreo <b>type</b> e <b>start</b></p>
+    <ol type="1"> <!--1 A a I i-->
+        <li>Acordar</li>
+        <li>Comer</li>
+        <li>Treinar</li>
+        <li>Estudar</li>
+        <li>Dormir</li>
+    </ol>
+    <p><b>Atalho selecione o que você quer mudar e segure Alt se quiser fazer a mesma mudansa para outra coisa</b></p>
+
+    <h2><ins>Lista não ordenada</ins></h2>
+    <p>usasse a tag <b>ul</b></p>
+    <p> <a href="https://www.tudogostoso.com.br/receita/76049-bolinho-de-chuva.html"  target ="_blank" rel="external"> Receita Bolinho de Chuva</a></p> <!--Para colocar um link coloque o texto de referência entre a tag a para que não abra por cima da seu site adcionr as tags target e rel. OBS: Esse é um link externo que leva pra outro site sem relações com esse.-->
+    <ul type= "circle"> <!-- disc square circle-->
+        <li>ovo</li>
+        <li>farinha</li>
+        <li>açucar</li>
+        <li>leite</li>
+        <li>fermento em pó</li>
+    </ul>
+
+    <h2> <ins>Meus jogos favoritos</ins></h2>
+    <ol type="1" start="0">
+        <li><abbr title="PlayStation2">PS2</abbr></li>
+        <ol type="1">
+            <li><abbr title="Dragon Ball Budokai Tenkaichi 3">DBT3</abbr></li>
+            <li>NSUN5</li>
+            <li>CDZ</li>
+            <li>TKF</li>
+        </ol>
+        <li><abbr title="PlayStation4">PS4</abbr></li>
+        <ol type="1">
+            <li>NSUNS4:
+                <blockquote cite="https://store.steampowered.com/app/349040/NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_4/">O mais recente capítulo da aclamada série STORM leva você a uma viagem de tirar o fôlego e cheia de cores! Tire proveito do sistema de batalha totalmente renovado e prepare-se para mergulhar nas lutas mais épicas que você já viu!</blockquote>
+            </li>
+            <li>OPPW4</li>
+            <li>SF6</li>
+            <li>GoWR</li>
+        </ol>
+    </ol>
+
+    <h2>Lista de definições usasse dl que tem o termo dt e a definição dd</h2> 
+    <dl>
+        <dt><b><big><ins>Naruto</ins></big></b> &#x1F977&#x1F98A:</dt> <br>
+        <dd>Um manga que conta a historia de Naruto que sonha em ser o  Hokage ó maior ninja</dd> <br>
+        <img src="https://cdn.awsli.com.br/600x1000/1577/1577202/produto/105643213/99de8805a2.jpg" alt="Capa Naruto">
+        <p>Link para downloads <br>
+            <a href="narutologo400Y.png" download="narutologo400Y" type="application/png">Baixar logo Naruto</a></p> <!--Para que o Download sej afeito coloque o parametro download e type esse tem que saber o certo--> <br>
+        <dt><b><big><ins>One Piece</ins></big></b> &#x2620&#x1F452:</dt> <br>
+        <dd>Nesse manga vamos ver Luffy em busca de ser o Rei dos Piratas</dd> <br>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_866186-MLU50424149311_062022-O.webp" alt="Capa One Piece"> 
+    </dl> <br>
+
+    <h2>Imagens adaptativas ao tamanho da tela <br>
+         <picture> <!-- tag para colocar uma img que vai ter alterações-->
+        <source media="(max-width: 750px)" srcset="imagpmg/ftp.png" type="image/png"> <!-- source para configurar a largura do navegador para colocar a img no srcset eo type-->
+        <source media="(max-width: 1050px)" srcset="imagpmg/ftm.png" type="image/png">
+        <img src="imagpmg/ftg.png" alt=" imagem adaptativa">
+    </picture></h2>
+   
+
+    <h1>Colocando áudios em HTML5 <br>
+         <audio preload="metadata" controls> <!--alguns dos parametros necessários para reproduzir áudios -->
+        <source src="donfret.mp3" type="audio/mpeg"> <!-- O type de áudio pode mudar para ogg ou wav-->
+    </audio>
+    <p>Você pode baixar o áudio <a href="donfret.mp3" download="donfret/mp3" >AQUI</a></p></h1>
+   
+
+    <h1> Vídeos no site local <br>
+        <video src="shipwave2.mp4" poster="wavethumb.jpg" width="720" loop controls > <!--Existe outros formatos de ´video ogg, mkv ou m4v-->
+            <p>Se o vídeo não abriu seu navegador não e compativel</p>
+        </video></h1>
+    
+    <h2>Vídeo em Site Externo <br>
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=aka06C2jHJ3bbn4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></h2>
+    
+        <h2>Onde fazer Paletas de cores</h2>
+        <p><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank" rel="nofollow">Adobe Color</a></p>
+        <p><a href="https://paletton.com/#uid=1000u0kROqrAoKEOXwDTRl9W2f9" target="_blank" rel="nofollow">Paletton</a></p>
+    
+</body>
+</html>

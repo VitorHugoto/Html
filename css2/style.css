@@ -1,0 +1,10 @@
+@charset "UTR-8";
+h1 {
+    border: 16px solid black;
+    border-image-source: url('bordas.png');
+    padding: 10px;
+    border-image-slice:26;
+    border-image-repeat: repeat;
+    text-align: center;
+    font: oblique 35px times;
+}

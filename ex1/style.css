@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom,#1900F0 , #0080F0 , #00CBF0 );
+    background-attachment: fixed;
+   
+}
+
+h1 {
+    text-align: center;
+    font-style: normal 50px Impact;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-style: italic 20px Arial;
+    color: rgb(87, 137, 245);
+     text-align: center;
+    font-size: 20px;
+
+}
+h2 {
+    font-style: normal 30px Impact;
+    color: rgb(253, 7, 7);
+    text-align: center;
+}
+ol{
+    color: white;
+    
+}
+ul{
+    color: white;
+
+}
+dl{
+    font-style: italic 20px Arial;
+    color: rgb(87, 137, 245);
+     text-align: center;
+    font-size: 20px;
+}

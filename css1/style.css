@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@font-face {
+    font-family:'gow' ;
+    src: url('GODOFWAR.TTF') format('truetype');
+    /* Tipos de formato
+    opentype (otf)
+    truetype (ttf)
+    embedded-opentype
+    truetype-aat (Apple Advenced Typogaphy */
+}
+body{
+    background-image: linear-gradient(to bottom, #3CA6A6,#026773,#024959 );
+    background-attachment: fixed;
+    
+}
+main{
+    background-color: white;
+    margin: auto;
+    box-shadow: 5px, 5px, 10px, #012E40;
+    padding: 15px;
+    border-radius: 10px;
+    width: 800px;
+    
+    }
+    h1 {
+        color:#F2E3D5 ;
+        text-align: center;
+        text-shadow: 2px 2px 5px #a78769;
+        font-style: oblique;
+        font-family:'gow','Times New Roman', Times, serif;
+        font-size: 35pt;
+        padding: 10px;
+    }
+    h2 {
+        color: #03506e;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 25pt;
+    }
+    h3 {
+        font-size: 1.5em;
+        font-family: "Permanent Marker", cursive;
+    }
+    p {
+        text-align: justify;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15pt;
+        text-indent: 30px; /* para dar espaço no começo*/
+    }
+    .sub {
+        background-color: #eedfd14f;
+    }
+    .subb {
+        background-color: #3ca6a663;
+    }
+    div {
+        background-color: #eedfd14f;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+    }
+    div:hover { 
+        background-color: #3ca6a663;
+    }
+    div:hover > p{
+        display: block;
+    }
+    div > p {
+        display: none;
+    }
+    a:visited {
+        background-color: red;
+    }
+    a:active {
+        color: red;
+    }
+    a::before {
+        content:'♦';
+    }
+    a::after{
+        content:'♦';
+    }
